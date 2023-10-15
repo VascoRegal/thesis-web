@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvregal_tese=self.webpackChunkvregal_tese||[]).push([[492],{3951:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/thesis-web/blog/tags/hello","allTagsPath":"/thesis-web/blog/tags","count":2}')}}]);
