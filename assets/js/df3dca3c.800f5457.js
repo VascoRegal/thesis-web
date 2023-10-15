@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkvregal_tese=self.webpackChunkvregal_tese||[]).push([[342],{4469:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
