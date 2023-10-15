@@ -1,0 +1,8 @@
+{
+  "label": "Pesquisa",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description" : "Pesquisas autónomas e análise de artigos."
+  }
+}
