@@ -15,6 +15,14 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+            <Link
+              className="button button--outline button--secondary white button--lg"
+              to="https://raw.githubusercontent.com/VascoRegal/thesis-writing/main/pre-tese.pdf"
+            >
+              Preview
+            </Link>
+        </div>
       </div>
     </header>
   );
