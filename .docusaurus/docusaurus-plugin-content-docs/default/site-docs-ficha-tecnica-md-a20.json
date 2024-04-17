@@ -1,0 +1,22 @@
+{
+  "unversionedId": "ficha_técnica",
+  "id": "ficha_técnica",
+  "title": "Ficha Técnica",
+  "description": "Dados da Dissertação",
+  "source": "@site/docs/ficha_técnica.md",
+  "sourceDirName": ".",
+  "slug": "/ficha_técnica",
+  "permalink": "/thesis-web/docs/ficha_técnica",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 25,
+  "frontMatter": {
+    "sidebar_position": 25
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment Manual",
+    "permalink": "/thesis-web/docs/guia_instalacao"
+  }
+}

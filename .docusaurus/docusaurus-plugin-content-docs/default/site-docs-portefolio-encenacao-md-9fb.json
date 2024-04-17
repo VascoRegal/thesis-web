@@ -1,0 +1,26 @@
+{
+  "unversionedId": "portefolio/encenacao",
+  "id": "portefolio/encenacao",
+  "title": "Exposição Artística sobre Sustentibilidade Ambiental",
+  "description": "13/12/23 - Sala SALT (Biblioteca do DEP)",
+  "source": "@site/docs/portefolio/encenacao.md",
+  "sourceDirName": "portefolio",
+  "slug": "/portefolio/encenacao",
+  "permalink": "/thesis-web/docs/portefolio/encenacao",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Feira de Emprego Universidade 5.0",
+    "permalink": "/thesis-web/docs/portefolio/feira_emprego"
+  },
+  "next": {
+    "title": "Pesquisa",
+    "permalink": "/thesis-web/docs/category/pesquisa"
+  }
+}

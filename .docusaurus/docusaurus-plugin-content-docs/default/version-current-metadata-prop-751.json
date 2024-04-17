@@ -1,0 +1,106 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "tutorialSidebar": [
+      {
+        "type": "link",
+        "label": "Introdução",
+        "href": "/thesis-web/docs/intro",
+        "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Portefolio",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Feira de Emprego Universidade 5.0",
+            "href": "/thesis-web/docs/portefolio/feira_emprego",
+            "docId": "portefolio/feira_emprego"
+          },
+          {
+            "type": "link",
+            "label": "Exposição Artística sobre Sustentibilidade Ambiental",
+            "href": "/thesis-web/docs/portefolio/encenacao",
+            "docId": "portefolio/encenacao"
+          }
+        ],
+        "href": "/thesis-web/docs/category/portefolio"
+      },
+      {
+        "type": "category",
+        "label": "Pesquisa",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Wireguard Whitepaper",
+            "href": "/thesis-web/docs/pesquisa/wireguard",
+            "docId": "pesquisa/wireguard"
+          }
+        ],
+        "href": "/thesis-web/docs/category/pesquisa"
+      },
+      {
+        "type": "link",
+        "label": "Deployment Manual",
+        "href": "/thesis-web/docs/guia_instalacao",
+        "docId": "guia_instalacao"
+      },
+      {
+        "type": "link",
+        "label": "Ficha Técnica",
+        "href": "/thesis-web/docs/ficha_técnica",
+        "docId": "ficha_técnica"
+      }
+    ]
+  },
+  "docs": {
+    "ficha_técnica": {
+      "id": "ficha_técnica",
+      "title": "Ficha Técnica",
+      "description": "Dados da Dissertação",
+      "sidebar": "tutorialSidebar"
+    },
+    "guia_instalacao": {
+      "id": "guia_instalacao",
+      "title": "Deployment Manual",
+      "description": "Table of Contents",
+      "sidebar": "tutorialSidebar"
+    },
+    "intro": {
+      "id": "intro",
+      "title": "Introdução",
+      "description": "Esta página serve de apoio à elaboração da minha dissertação no Mestrado de Engenharia Informática.",
+      "sidebar": "tutorialSidebar"
+    },
+    "pesquisa/wireguard": {
+      "id": "pesquisa/wireguard",
+      "title": "Wireguard Whitepaper",
+      "description": "Titulo Next Generation Kernel Network Tunnel",
+      "sidebar": "tutorialSidebar"
+    },
+    "portefolio/encenacao": {
+      "id": "portefolio/encenacao",
+      "title": "Exposição Artística sobre Sustentibilidade Ambiental",
+      "description": "13/12/23 - Sala SALT (Biblioteca do DEP)",
+      "sidebar": "tutorialSidebar"
+    },
+    "portefolio/feira_emprego": {
+      "id": "portefolio/feira_emprego",
+      "title": "Feira de Emprego Universidade 5.0",
+      "description": "21/11/23 - Pavilhão Aristides Hall",
+      "sidebar": "tutorialSidebar"
+    }
+  }
+}

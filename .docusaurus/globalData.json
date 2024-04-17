@@ -1,0 +1,68 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/thesis-web/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/thesis-web/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "ficha_técnica",
+              "path": "/thesis-web/docs/ficha_técnica",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "guia_instalacao",
+              "path": "/thesis-web/docs/guia_instalacao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/thesis-web/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "pesquisa/wireguard",
+              "path": "/thesis-web/docs/pesquisa/wireguard",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "portefolio/encenacao",
+              "path": "/thesis-web/docs/portefolio/encenacao",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "portefolio/feira_emprego",
+              "path": "/thesis-web/docs/portefolio/feira_emprego",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/portefolio",
+              "path": "/thesis-web/docs/category/portefolio",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/pesquisa",
+              "path": "/thesis-web/docs/category/pesquisa",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/thesis-web/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

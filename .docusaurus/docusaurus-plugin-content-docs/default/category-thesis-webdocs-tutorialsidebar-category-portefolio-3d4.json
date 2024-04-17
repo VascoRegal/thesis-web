@@ -1,0 +1,16 @@
+{
+  "title": "Portefolio",
+  "description": "Compilação de atividades não direatamente relacionadas com a dissertação.",
+  "slug": "/category/portefolio",
+  "permalink": "/thesis-web/docs/category/portefolio",
+  "navigation": {
+    "previous": {
+      "title": "Introdução",
+      "permalink": "/thesis-web/docs/intro"
+    },
+    "next": {
+      "title": "Feira de Emprego Universidade 5.0",
+      "permalink": "/thesis-web/docs/portefolio/feira_emprego"
+    }
+  }
+}

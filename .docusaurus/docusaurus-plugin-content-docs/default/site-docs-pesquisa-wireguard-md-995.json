@@ -1,0 +1,23 @@
+{
+  "unversionedId": "pesquisa/wireguard",
+  "id": "pesquisa/wireguard",
+  "title": "Wireguard Whitepaper",
+  "description": "Titulo Next Generation Kernel Network Tunnel",
+  "source": "@site/docs/pesquisa/wireguard.md",
+  "sourceDirName": "pesquisa",
+  "slug": "/pesquisa/wireguard",
+  "permalink": "/thesis-web/docs/pesquisa/wireguard",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Pesquisa",
+    "permalink": "/thesis-web/docs/category/pesquisa"
+  },
+  "next": {
+    "title": "Deployment Manual",
+    "permalink": "/thesis-web/docs/guia_instalacao"
+  }
+}
