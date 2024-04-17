@@ -71,7 +71,6 @@ const config = {
             position: 'left',
             label: 'About',
           },
-          {to: '/docs/category/portefolio', label: 'Portefolio', position: 'left'},
           {
             href: 'https://github.com/VascoRegal/msc-thesis',
             label: 'GitHub',

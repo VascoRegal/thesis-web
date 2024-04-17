@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 1.5
 ---
 
-# Deployment Manual
+# Guia Instalação
 
 ## Table of Contents
 <!-- TOC -->
@@ -11,7 +11,7 @@ sidebar_position: 5
   - [Configuration](#configuration)
 - [Clients](#clients)
   - [Tailscale CLI Installation](#tailscale-cli-installation)
-
+  - [Authentication](#authentication)
 ## Headscale
 
 ### Installation
