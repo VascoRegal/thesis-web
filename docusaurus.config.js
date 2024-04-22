@@ -69,7 +69,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'About',
+            label: 'Wiki',
           },
           {
             href: 'https://github.com/VascoRegal/msc-thesis',

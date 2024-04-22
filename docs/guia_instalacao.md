@@ -12,6 +12,7 @@ sidebar_position: 1.5
 - [Clients](#clients)
   - [Tailscale CLI Installation](#tailscale-cli-installation)
   - [Authentication](#authentication)
+
 ## Headscale
 
 ### Installation
@@ -37,6 +38,8 @@ sudo systemctl start headscale
 ```
 
 ### Configuration
+
+All configurations files available online [here](https://github.com/VascoRegal/ua-overlays-automation)
 
 #### Server URL (where clients will connect to) and Listening Interfaces
 
