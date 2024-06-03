@@ -4,6 +4,8 @@ sidebar_position: 1.5
 
 # Guia Instalação
 
+All installation scripts publicly available in the [automation repository](https://github.com/VascoRegal/ua-overlays-automation) 
+
 ## Table of Contents
 <!-- TOC -->
 - [Headscale](#headscale)
@@ -39,8 +41,6 @@ sudo systemctl start headscale
 
 ### Configuration
 
-All configurations files available online [here](https://github.com/VascoRegal/ua-overlays-automation)
-
 #### Server URL (where clients will connect to) and Listening Interfaces
 
 
@@ -49,7 +49,7 @@ vim /etc/headscale/config.yaml
 ```
 
 ```yaml
-server_url: http://iris-lab.ua.pt:8080
+server_url: https://iris-lab.ua.pt:8080
 
 ...
 
@@ -60,30 +60,7 @@ grpc_listen_addr: 127.0.0.1:50443
 
 #### DERP Servers Configuration
 
-1. Create a configuration file for the Embedded DERP server
-
-```bash
-vim /etc/headscale/derp_config.yaml
-```
-
-```yaml
-regions:
-  900:
-    regionid: 900
-    regioncode: EMBD
-    regionname: Embedded Servers
-    nodes:
-      - name: 900a
-        regionid: 900
-        hostname: iris-lab.ua.pt
-        ipv4: 192.168.160.160
-        #ipv6: "fe80::eea8:6bff:fefb:3d25"
-        stunport: 3478
-        stunonly: false
-        derpport: 8080
-```
-
-2. Enable Headscale's embedded DERP server 
+1. Enable Headscale's embedded DERP server 
 
 ```bash
 vim /etc/headscale/config.yaml
@@ -102,16 +79,21 @@ derp:
 
 ```
 
-3. Disable externally available servers and load the embedded from the config file
+2. Disable externally available servers 
 
 ```yaml
 derp:
     urls: []
-
-    paths:
-      - /etc/headscale/derp_config.yml
-
 ```
+
+3. Add Headscale's certificate
+
+```yaml
+tls_cert_path: "/etc/headscale/certs/headscale.crt"
+tls_key_path: "/etc/headscale/certs/headscale.key"
+```
+
+Note: these certificates were generated with openssl. For deployments with a public Headscale instance, using let's encrypt or caddy through Headscale's config file is probably better.
 
 4. Restart the service
 
@@ -147,6 +129,6 @@ headscale --user dev preauthkeys create --reusable --expiration 24h
 2. Clients can now login with the pre-authenticated key generated
 
 ```bash
-tailscale up --login-server "http://iris-lab.ua.pt:8080" --authkey <genrated_key>
+tailscale up --login-server "https://iris-lab.ua.pt:8080" --authkey <genrated_key> --allow-self-signed
 ```
 
