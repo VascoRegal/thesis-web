@@ -115,7 +115,14 @@ headscale users create dev
 
 ```bash
 wget -q https://raw.githubusercontent.com/VascoRegal/ua-overlays-automation/main/scripts/install_tailscale.sh
+sudo chmod u+x ./install_tailscale.sh
 sudo ./install_tailscale.sh
+```
+
+2. Reboot the machine
+
+```
+sudo reboot
 ```
 
 ## Client Authentication
@@ -129,6 +136,6 @@ headscale --user dev preauthkeys create --reusable --expiration 24h
 2. Clients can now login with the pre-authenticated key generated
 
 ```bash
-tailscale up --login-server "https://iris-lab.ua.pt:8080" --authkey <genrated_key> --allow-self-signed
+tailscale up --login-server "https://iris-lab.ua.pt:8080" --authkey <genrated_key> 
 ```
 
